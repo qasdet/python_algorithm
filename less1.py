@@ -52,13 +52,3 @@ def check_3(lst_obj):
         if lst_copy[i] == lst_copy[i+1]:     # O(1)
             return False                     # O(1)
     return True                              # O(1)
-
-
-for j in (50, 500, 1000, 5000, 10000):
-    # Из 100000 чисел возьмем 'j' случайно выбранных
-    # Всего 10 тыс. чисел
-    lst = sample(range(-100000, 100000), j)
-
-print(check_1(lst))
-print(check_2(lst))
-print(check_3(lst))
