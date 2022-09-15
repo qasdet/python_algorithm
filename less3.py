@@ -5,7 +5,6 @@ test_lst = [i for i in range(1, 50)]
 my_lst = [i for i in range(1, 1000)]
 test_dq = deque(i for i in range(1, 1000))
 
-
 print('-----------------------------deque.append vs list.append')
 print(timeit('for i in range(100): test_dq.append(i)', globals=globals(), number=5000))
 print(timeit('for i in range(100): test_lst.append(i)', globals=globals(), number=5000))

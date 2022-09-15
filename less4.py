@@ -21,3 +21,4 @@ print(timeit('for v in ord_dict: ord_dict.values()', globals=globals(), number=1
 заключены исключительно в его специфических особенностях, которых нет в обычных 
 словарях (типа, move_to_end() и popitem()).
 """
+

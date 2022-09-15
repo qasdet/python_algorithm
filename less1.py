@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-
 def calculation(profit, num):
     profit_company = defaultdict(int)
     total_profit = 0

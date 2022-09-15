@@ -2,7 +2,6 @@ def sum_number(num_1, num_2):
     total = hex(num_1 + num_2)
     return list(str(total).upper())[2:]
 
-
 def mul_number(numb_1, numb_2):
     total = hex(numb_1 * numb_2)
     return list(str(total).upper())[2:]
